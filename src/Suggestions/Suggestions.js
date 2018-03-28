@@ -33,7 +33,7 @@ export default class Suggestions extends PureComponent {
 		if(!suggestions || !suggestions.length) return null
 
 		return (
-			<div className={`${styles.dropdown} ${className}`}>
+			<div className={`${styles.dropdownSuggestions} ${className}`}>
 				<ul className={styles.suggestions}>
 					{this._renderSuggestions(suggestions)}
 				</ul>
